@@ -1,0 +1,36 @@
+{
+  "name": "gulp-static-site-example",
+  "version": "0.0.1",
+  "description": "Gulp based static site generator example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikkolehtinen/gulp-static-site-example.git"
+  },
+  "keywords": [
+    "blogging",
+    "static",
+    "generator",
+    "gulp"
+  ],
+  "author": "@kosmikko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikkolehtinen/gulp-static-site-example/issues"
+  },
+  "homepage": "https://github.com/mikkolehtinen/gulp-static-site-example",
+  "devDependencies": {
+    "gulp": "~3.5",
+    "gulp-front-matter": "~1.0.0",
+    "gulp-funnel": "~0.1.0",
+    "gulp-markdown": "~0.1.2",
+    "gulp-rename": "~1.1.0",
+    "gulp-render-nunjucks": "git://github.com/pichfl/gulp-render-nunjucks.git",
+    "slug": "~0.4.2"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "index": "gulp index",
+    "posts": "gulp posts"
+  }
+}
